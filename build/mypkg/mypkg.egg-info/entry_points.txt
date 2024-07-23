@@ -1,0 +1,6 @@
+[console_scripts]
+circle = mypkg.draw_circle:main
+pose_sub = mypkg.pose_sub:main
+testnode = mypkg.test1:main
+turtle_controller = mypkg.turtle_controller:main
+

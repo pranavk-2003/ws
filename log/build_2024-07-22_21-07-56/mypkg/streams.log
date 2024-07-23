@@ -1,0 +1,45 @@
+[0.684s] Invoking command in '/home/pranav/ws/src/mypkg': PYTHONPATH=/home/pranav/ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/pranav/ws/build/mypkg/build install --record /home/pranav/ws/build/mypkg/install.log --single-version-externally-managed install_data
+[0.932s] running egg_info
+[0.933s] creating ../../build/mypkg/mypkg.egg-info
+[0.933s] writing ../../build/mypkg/mypkg.egg-info/PKG-INFO
+[0.933s] writing dependency_links to ../../build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.933s] writing entry points to ../../build/mypkg/mypkg.egg-info/entry_points.txt
+[0.934s] writing requirements to ../../build/mypkg/mypkg.egg-info/requires.txt
+[0.934s] writing top-level names to ../../build/mypkg/mypkg.egg-info/top_level.txt
+[0.934s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.936s] reading manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.937s] writing manifest file '../../build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.937s] running build
+[0.937s] running build_py
+[0.938s] creating /home/pranav/ws/build/mypkg/build
+[0.938s] creating /home/pranav/ws/build/mypkg/build/lib
+[0.938s] creating /home/pranav/ws/build/mypkg/build/lib/mypkg
+[0.938s] copying mypkg/draw_circle.py -> /home/pranav/ws/build/mypkg/build/lib/mypkg
+[0.938s] copying mypkg/test1.py -> /home/pranav/ws/build/mypkg/build/lib/mypkg
+[0.938s] copying mypkg/pose_sub.py -> /home/pranav/ws/build/mypkg/build/lib/mypkg
+[0.938s] copying mypkg/__init__.py -> /home/pranav/ws/build/mypkg/build/lib/mypkg
+[0.939s] running install
+[0.939s] running install_lib
+[0.940s] creating /home/pranav/ws/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.940s] copying /home/pranav/ws/build/mypkg/build/lib/mypkg/draw_circle.py -> /home/pranav/ws/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.940s] copying /home/pranav/ws/build/mypkg/build/lib/mypkg/test1.py -> /home/pranav/ws/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.940s] copying /home/pranav/ws/build/mypkg/build/lib/mypkg/pose_sub.py -> /home/pranav/ws/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.940s] copying /home/pranav/ws/build/mypkg/build/lib/mypkg/__init__.py -> /home/pranav/ws/install/mypkg/lib/python3.10/site-packages/mypkg
+[0.941s] byte-compiling /home/pranav/ws/install/mypkg/lib/python3.10/site-packages/mypkg/draw_circle.py to draw_circle.cpython-310.pyc
+[0.942s] byte-compiling /home/pranav/ws/install/mypkg/lib/python3.10/site-packages/mypkg/test1.py to test1.cpython-310.pyc
+[0.943s] byte-compiling /home/pranav/ws/install/mypkg/lib/python3.10/site-packages/mypkg/pose_sub.py to pose_sub.cpython-310.pyc
+[0.943s] byte-compiling /home/pranav/ws/install/mypkg/lib/python3.10/site-packages/mypkg/__init__.py to __init__.cpython-310.pyc
+[0.943s] running install_data
+[0.943s] creating /home/pranav/ws/install/mypkg/share/ament_index
+[0.943s] creating /home/pranav/ws/install/mypkg/share/ament_index/resource_index
+[0.943s] creating /home/pranav/ws/install/mypkg/share/ament_index/resource_index/packages
+[0.944s] copying resource/mypkg -> /home/pranav/ws/install/mypkg/share/ament_index/resource_index/packages
+[0.944s] copying package.xml -> /home/pranav/ws/install/mypkg/share/mypkg
+[0.944s] running install_egg_info
+[0.946s] Copying ../../build/mypkg/mypkg.egg-info to /home/pranav/ws/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[0.947s] running install_scripts
+[0.968s] Installing circle script to /home/pranav/ws/install/mypkg/lib/mypkg
+[0.968s] Installing pose_sub script to /home/pranav/ws/install/mypkg/lib/mypkg
+[0.969s] Installing testnode script to /home/pranav/ws/install/mypkg/lib/mypkg
+[0.969s] writing list of installed files to '/home/pranav/ws/build/mypkg/install.log'
+[0.993s] Invoked command in '/home/pranav/ws/src/mypkg' returned '0': PYTHONPATH=/home/pranav/ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/mypkg build --build-base /home/pranav/ws/build/mypkg/build install --record /home/pranav/ws/build/mypkg/install.log --single-version-externally-managed install_data
