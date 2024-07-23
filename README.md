@@ -24,7 +24,7 @@ To get started with the codes in this repository, follow these steps:
 1. **Clone the Repository**
    ```sh
    git clone https://github.com/yourusername/ros2-experiments.git
-   cd ros2-experiments
+   cd ~/ws
    ```
 
 2. **Setup ROS 2 Environment**
