@@ -1,0 +1,20 @@
+[0.777s] Invoking command in '/home/pranav/ws/build/mypkg': PYTHONPATH=/home/pranav/ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pranav/ws/build/mypkg/build --no-deps symlink_data
+[1.066s] running develop
+[1.242s] running egg_info
+[1.243s] writing mypkg.egg-info/PKG-INFO
+[1.244s] writing dependency_links to mypkg.egg-info/dependency_links.txt
+[1.244s] writing entry points to mypkg.egg-info/entry_points.txt
+[1.245s] writing requirements to mypkg.egg-info/requires.txt
+[1.245s] writing top-level names to mypkg.egg-info/top_level.txt
+[1.246s] reading manifest file 'mypkg.egg-info/SOURCES.txt'
+[1.247s] writing manifest file 'mypkg.egg-info/SOURCES.txt'
+[1.248s] running build_ext
+[1.248s] Creating /home/pranav/ws/install/mypkg/lib/python3.10/site-packages/mypkg.egg-link (link to .)
+[1.250s] Installing circle script to /home/pranav/ws/install/mypkg/lib/mypkg
+[1.250s] Installing pose_sub script to /home/pranav/ws/install/mypkg/lib/mypkg
+[1.251s] Installing testnode script to /home/pranav/ws/install/mypkg/lib/mypkg
+[1.251s] Installing turtle_controller script to /home/pranav/ws/install/mypkg/lib/mypkg
+[1.251s] 
+[1.252s] Installed /home/pranav/ws/build/mypkg
+[1.252s] running symlink_data
+[1.280s] Invoked command in '/home/pranav/ws/build/mypkg' returned '0': PYTHONPATH=/home/pranav/ws/build/mypkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pranav/ws/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/pranav/ws/build/mypkg/build --no-deps symlink_data

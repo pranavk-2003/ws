@@ -23,7 +23,10 @@ setup(
             "testnode=mypkg.test1:main",
             "circle=mypkg.draw_circle:main",
             "pose_sub=mypkg.pose_sub:main",
-            "turtle_controller=mypkg.turtle_controller:main"
+            "turtle_controller=mypkg.turtle_controller:main",
+            "hw_status_pub=mypkg.hw_status_pub:main"
+
+            
         ],
     },
 )

@@ -1,0 +1,17 @@
+[0.016s] Invoking command in '/home/pranav/ws/src/my_robot_interfaces/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake /home/pranav/ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/pranav/ws/src/my_robot_interfaces/install/my_robot_interfaces
+[0.040s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.178s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.185s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.223s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.256s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.256s]   rosidl_generate_interfaces() the passed file 'srv/SetLed.srv' doesn't exist
+[0.256s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.257s]   '/home/pranav/ws/src/my_robot_interfaces'
+[0.257s] Call Stack (most recent call first):
+[0.257s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[0.257s] 
+[0.257s] [0m
+[0.257s] -- Configuring incomplete, errors occurred!
+[0.257s] See also "/home/pranav/ws/src/my_robot_interfaces/build/my_robot_interfaces/CMakeFiles/CMakeOutput.log".
+[0.262s] Invoked command in '/home/pranav/ws/src/my_robot_interfaces/build/my_robot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake /home/pranav/ws/src/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/pranav/ws/src/my_robot_interfaces/install/my_robot_interfaces

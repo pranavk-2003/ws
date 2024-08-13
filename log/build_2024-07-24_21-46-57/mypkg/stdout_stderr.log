@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing mypkg.egg-info/PKG-INFO
+writing dependency_links to mypkg.egg-info/dependency_links.txt
+writing entry points to mypkg.egg-info/entry_points.txt
+writing requirements to mypkg.egg-info/requires.txt
+writing top-level names to mypkg.egg-info/top_level.txt
+reading manifest file 'mypkg.egg-info/SOURCES.txt'
+writing manifest file 'mypkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pranav/ws/install/mypkg/lib/python3.10/site-packages/mypkg.egg-link (link to .)
+Installing circle script to /home/pranav/ws/install/mypkg/lib/mypkg
+Installing pose_sub script to /home/pranav/ws/install/mypkg/lib/mypkg
+Installing testnode script to /home/pranav/ws/install/mypkg/lib/mypkg
+Installing turtle_controller script to /home/pranav/ws/install/mypkg/lib/mypkg
+
+Installed /home/pranav/ws/build/mypkg
+running symlink_data
+symbolically linking /home/pranav/ws/build/mypkg/resource/mypkg -> /home/pranav/ws/install/mypkg/share/ament_index/resource_index/packages
+symbolically linking /home/pranav/ws/build/mypkg/package.xml -> /home/pranav/ws/install/mypkg/share/mypkg
