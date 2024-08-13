@@ -6,7 +6,10 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
+        "/home/pranav/ws/install/my_robot_interfaces/include/**",
+        "/home/pranav/ws/src/my_robot_interfaces/install/my_robot_interfaces/include/**",
         "/opt/ros/humble/include/**",
+        "/home/pranav/ws/src/my_cpp_pkg/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",
