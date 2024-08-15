@@ -1,0 +1,194 @@
+[0.128s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--event-handlers', 'console_cohesion+', '--base-paths', '/home/pranav/ws', '--cmake-args', '-DCMAKE_BUILD_TYPE=RelWithDebInfo']
+[0.128s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=['console_cohesion+'], ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/pranav/ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=RelWithDebInfo'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x780984bfb580>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x780984bfa6e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x780984bfa6e0>>, mixin_verb=('build',))
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.312s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.313s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pranav/ws'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/build) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/build) ignored
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/install) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/install) ignored
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/log) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/log) ignored
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_cpp_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_cpp_pkg) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_cpp_pkg) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_cpp_pkg) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_cpp_pkg) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_cpp_pkg) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_cpp_pkg) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_cpp_pkg) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_cpp_pkg) by extension 'ros'
+[0.329s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranav/ws/src/my_cpp_pkg' with type 'ros.ament_cmake' and name 'my_cpp_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_robot_bringup) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_robot_bringup) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_robot_bringup) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_robot_bringup) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_robot_bringup) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_robot_bringup) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_robot_bringup) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_robot_bringup) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranav/ws/src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_robot_interfaces) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_robot_interfaces) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_robot_interfaces) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_robot_interfaces) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_robot_interfaces) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_robot_interfaces) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_robot_interfaces) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/my_robot_interfaces) by extension 'ros'
+[0.332s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranav/ws/src/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/mypkg) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/mypkg) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/mypkg) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/mypkg) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/mypkg) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/mypkg) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/mypkg) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/mypkg) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(/home/pranav/ws/src/mypkg) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package '/home/pranav/ws/src/mypkg' with type 'ros.ament_python' and name 'mypkg'
+[0.334s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.360s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/pranav/ws/install
+[0.360s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/pranav/project_robot_ws/install
+[0.361s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/pranav/ws/src/my_robot_interfaces/install
+[0.362s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/pranav/learning_ws/install
+[0.364s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 427 installed packages in /opt/ros/humble
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo']'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'my_cpp_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.449s] DEBUG:colcon.colcon_core.verb:Building package 'my_cpp_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pranav/ws/build/my_cpp_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pranav/ws/install/my_cpp_pkg', 'merge_install': False, 'path': '/home/pranav/ws/src/my_cpp_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo']'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'my_robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.450s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pranav/ws/build/my_robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pranav/ws/install/my_robot_interfaces', 'merge_install': False, 'path': '/home/pranav/ws/src/my_robot_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo']'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'cmake_target' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'mypkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'mypkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pranav/ws/build/mypkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pranav/ws/install/mypkg', 'merge_install': False, 'path': '/home/pranav/ws/src/mypkg', 'symlink_install': True, 'test_result_base': None}
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=RelWithDebInfo']'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pranav/ws/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=RelWithDebInfo'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pranav/ws/install/my_robot_bringup', 'merge_install': False, 'path': '/home/pranav/ws/src/my_robot_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.451s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.453s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.453s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pranav/ws/src/my_robot_interfaces' with build type 'ament_cmake'
+[0.453s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pranav/ws/src/my_robot_interfaces'
+[0.459s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.468s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pranav/ws/src/my_cpp_pkg' with build type 'ament_cmake'
+[0.468s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pranav/ws/src/my_cpp_pkg'
+[0.469s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.469s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pranav/ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake /home/pranav/ws/src/my_robot_interfaces -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pranav/ws/install/my_robot_interfaces
+[0.499s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pranav/ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake /home/pranav/ws/src/my_cpp_pkg -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pranav/ws/install/my_cpp_pkg
+[1.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pranav/ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake /home/pranav/ws/src/my_cpp_pkg -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pranav/ws/install/my_cpp_pkg
+[1.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pranav/ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/pranav/ws/build/my_cpp_pkg -- -j4 -l4
+[2.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pranav/ws/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake /home/pranav/ws/src/my_robot_interfaces -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pranav/ws/install/my_robot_interfaces
+[2.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pranav/ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/pranav/ws/build/my_robot_interfaces -- -j4 -l4
+[7.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pranav/ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/pranav/ws/build/my_robot_interfaces -- -j4 -l4
+[7.563s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_interfaces)
+[7.578s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ws/install/my_robot_interfaces' for CMake module files
+[7.579s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ws/install/my_robot_interfaces' for CMake config files
+[7.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'cmake_prefix_path')
+[7.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.ps1'
+[7.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pranav/ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.dsv'
+[7.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/cmake_prefix_path.sh'
+[7.591s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ws/install/my_robot_interfaces/lib'
+[7.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_interfaces', 'ld_library_path_lib')
+[7.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.ps1'
+[7.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pranav/ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.dsv'
+[7.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pranav/ws/install/my_robot_interfaces/share/my_robot_interfaces/hook/ld_library_path_lib.sh'
+[7.597s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ws/install/my_robot_interfaces/bin'
+[7.597s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ws/install/my_robot_interfaces/lib/pkgconfig/my_robot_interfaces.pc'
+[7.598s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ws/install/my_robot_interfaces/lib/python3.10/site-packages'
+[7.598s] Level 1:colcon.colcon_core.environment:checking '/home/pranav/ws/install/my_robot_interfaces/bin'
+[7.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ws/install/my_robot_interfaces/share/my_robot_interfaces/package.ps1'
+[7.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pranav/ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv'
+[7.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ws/install/my_robot_interfaces/share/my_robot_interfaces/package.sh'
+[7.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ws/install/my_robot_interfaces/share/my_robot_interfaces/package.bash'
+[7.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/pranav/ws/install/my_robot_interfaces/share/my_robot_interfaces/package.zsh'
+[7.605s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pranav/ws/install/my_robot_interfaces/share/colcon-core/packages/my_robot_interfaces)
+[14.582s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[14.582s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[14.675s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[14.675s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[14.675s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[14.676s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.694s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.695s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.696s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.736s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.736s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pranav/ws/install/local_setup.ps1'
+[14.738s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pranav/ws/install/_local_setup_util_ps1.py'
+[14.740s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pranav/ws/install/setup.ps1'
+[14.742s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pranav/ws/install/local_setup.sh'
+[14.743s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pranav/ws/install/_local_setup_util_sh.py'
+[14.744s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pranav/ws/install/setup.sh'
+[14.746s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pranav/ws/install/local_setup.bash'
+[14.747s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pranav/ws/install/setup.bash'
+[14.749s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pranav/ws/install/local_setup.zsh'
+[14.750s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pranav/ws/install/setup.zsh'

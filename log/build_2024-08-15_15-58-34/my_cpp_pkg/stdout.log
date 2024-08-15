@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target speed_pub[0m
+[ 25%] Built target rpm_pub
+[ 50%] Built target subscriber
+[ 75%] Built target publisher
+[ 87%] [32mBuilding CXX object CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.o[0m

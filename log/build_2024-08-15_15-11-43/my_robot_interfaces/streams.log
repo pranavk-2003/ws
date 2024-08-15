@@ -1,0 +1,10 @@
+[0.023s] Invoking command in '/home/pranav/ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/pranav/ws/build/my_robot_interfaces -- -j4 -l4
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target my_robot_interfaces__rosidl_generator_c[0m
+[0.136s] failed to create symbolic link '/home/pranav/ws/build/my_robot_interfaces/ament_cmake_python/my_robot_interfaces/my_robot_interfaces' because existing path cannot be removed: Is a directory
+[0.137s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_my_robot_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_my_robot_interfaces] Error 1
+[0.138s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_my_robot_interfaces.dir/all] Error 2
+[0.138s] [  1%] Built target my_robot_interfaces__cpp
+[0.138s] gmake[1]: *** Waiting for unfinished jobs....
+[0.151s] [ 12%] Built target my_robot_interfaces__rosidl_generator_c
+[0.153s] gmake: *** [Makefile:146: all] Error 2
+[0.161s] Invoked command in '/home/pranav/ws/build/my_robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/pranav/ws/build/my_robot_interfaces -- -j4 -l4

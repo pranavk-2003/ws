@@ -223,6 +223,32 @@ subscriber/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/build
 .PHONY : subscriber/fast
 
+#=============================================================================
+# Target rules for targets named rpm_pub
+
+# Build rule for target.
+rpm_pub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rpm_pub
+.PHONY : rpm_pub
+
+# fast build rule for target.
+rpm_pub/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_pub.dir/build.make CMakeFiles/rpm_pub.dir/build
+.PHONY : rpm_pub/fast
+
+#=============================================================================
+# Target rules for targets named speed_pub
+
+# Build rule for target.
+speed_pub: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 speed_pub
+.PHONY : speed_pub
+
+# fast build rule for target.
+speed_pub/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_pub.dir/build.make CMakeFiles/speed_pub.dir/build
+.PHONY : speed_pub/fast
+
 src/publisher.o: src/publisher.cpp.o
 .PHONY : src/publisher.o
 
@@ -246,6 +272,54 @@ src/publisher.s: src/publisher.cpp.s
 src/publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/src/publisher.cpp.s
 .PHONY : src/publisher.cpp.s
+
+src/rpm_publisher.o: src/rpm_publisher.cpp.o
+.PHONY : src/rpm_publisher.o
+
+# target to build an object file
+src/rpm_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_pub.dir/build.make CMakeFiles/rpm_pub.dir/src/rpm_publisher.cpp.o
+.PHONY : src/rpm_publisher.cpp.o
+
+src/rpm_publisher.i: src/rpm_publisher.cpp.i
+.PHONY : src/rpm_publisher.i
+
+# target to preprocess a source file
+src/rpm_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_pub.dir/build.make CMakeFiles/rpm_pub.dir/src/rpm_publisher.cpp.i
+.PHONY : src/rpm_publisher.cpp.i
+
+src/rpm_publisher.s: src/rpm_publisher.cpp.s
+.PHONY : src/rpm_publisher.s
+
+# target to generate assembly for a file
+src/rpm_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_pub.dir/build.make CMakeFiles/rpm_pub.dir/src/rpm_publisher.cpp.s
+.PHONY : src/rpm_publisher.cpp.s
+
+src/speed_publisher.o: src/speed_publisher.cpp.o
+.PHONY : src/speed_publisher.o
+
+# target to build an object file
+src/speed_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_pub.dir/build.make CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.o
+.PHONY : src/speed_publisher.cpp.o
+
+src/speed_publisher.i: src/speed_publisher.cpp.i
+.PHONY : src/speed_publisher.i
+
+# target to preprocess a source file
+src/speed_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_pub.dir/build.make CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.i
+.PHONY : src/speed_publisher.cpp.i
+
+src/speed_publisher.s: src/speed_publisher.cpp.s
+.PHONY : src/speed_publisher.s
+
+# target to generate assembly for a file
+src/speed_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_pub.dir/build.make CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.s
+.PHONY : src/speed_publisher.cpp.s
 
 src/subscriber.o: src/subscriber.cpp.o
 .PHONY : src/subscriber.o
@@ -287,10 +361,18 @@ help:
 	@echo "... my_cpp_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... publisher"
+	@echo "... rpm_pub"
+	@echo "... speed_pub"
 	@echo "... subscriber"
 	@echo "... src/publisher.o"
 	@echo "... src/publisher.i"
 	@echo "... src/publisher.s"
+	@echo "... src/rpm_publisher.o"
+	@echo "... src/rpm_publisher.i"
+	@echo "... src/rpm_publisher.s"
+	@echo "... src/speed_publisher.o"
+	@echo "... src/speed_publisher.i"
+	@echo "... src/speed_publisher.s"
 	@echo "... src/subscriber.o"
 	@echo "... src/subscriber.i"
 	@echo "... src/subscriber.s"

@@ -1,0 +1,4 @@
+[01m[K/home/pranav/ws/src/my_cpp_pkg/src/speed_publisher.cpp:[m[K In member function ‘[01m[Kvoid rpm_sub::sub_callback(const Int32&)[m[K’:
+[01m[K/home/pranav/ws/src/my_cpp_pkg/src/speed_publisher.cpp:17:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krpm[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   17 |             auto [01;35m[Krpm[m[K=msg.data;
+      |                  [01;35m[K^~~[m[K

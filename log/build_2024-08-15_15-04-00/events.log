@@ -1,0 +1,210 @@
+[0.000000] (-) TimerEvent: {}
+[0.000522] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000586] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000643] (-) JobUnselected: {'identifier': 'mypkg'}
+[0.000672] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.001067] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.014987] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.016020] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/pranav/ws/src/my_cpp_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/pranav/ws/install/my_cpp_pkg'], 'cwd': '/home/pranav/ws/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pranav'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pranav/ws/install/my_robot_interfaces/lib:/home/pranav/ws/src/my_robot_interfaces/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/pranav'), ('OLDPWD', '/home/pranav'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1163'), ('SYSTEMD_EXEC_PID', '1340'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2956'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pranav/ws/install:/home/pranav/project_robot_ws/install:/home/pranav/ws/src/my_robot_interfaces/install:/home/pranav/learning_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pranav'), ('JOURNAL_STREAM', '8:22819'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pranav'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jarvis:@/tmp/.ICE-unix/1314,unix/jarvis:/tmp/.ICE-unix/1314'), ('INVOCATION_ID', '24f8b18119f54bf09cb57cef98322450'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QZC7R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pranav/ws/install/my_robot_bringup:/home/pranav/ws/install/mypkg:/home/pranav/ws/install/my_robot_interfaces:/home/pranav/ws/install/my_cpp_pkg:/home/pranav/project_robot_ws/install/project_robot_description:/home/pranav/project_robot_ws/install/my_robot_bringup:/home/pranav/ws/src/my_robot_interfaces/install/my_robot_interfaces:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ca9578ee-51c0-47c7-9c8d-4285dc7edb3a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pranav/ws/build/my_cpp_pkg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pranav/ws/install/mypkg/lib/python3.10/site-packages:/home/pranav/ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/pranav/ws/src/my_robot_interfaces/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/pranav/learning_ws/build/mypkg:/home/pranav/learning_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pranav/ws/install/my_robot_bringup:/home/pranav/ws/install/my_robot_interfaces:/home/pranav/ws/install/my_cpp_pkg:/home/pranav/project_robot_ws/install/project_robot_description:/home/pranav/project_robot_ws/install/my_robot_bringup:/home/pranav/ws/src/my_robot_interfaces/install/my_robot_interfaces:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble')]), 'shell': False}
+[0.037781] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099392] (-) TimerEvent: {}
+[0.169379] (my_cpp_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.178500] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199837] (-) TimerEvent: {}
+[0.207459] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.208173] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.214487] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.222701] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.233070] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.267392] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.269349] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.290005] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.300046] (-) TimerEvent: {}
+[0.338293] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.403247] (-) TimerEvent: {}
+[0.414010] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.414342] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.414456] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.414832] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.415809] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.415907] (my_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.416277] (my_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.417443] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.438068] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.438412] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/pranav/ws/build/my_cpp_pkg\n'}
+[0.448540] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[0.449783] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.453163] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pranav/ws/build/my_cpp_pkg', '--', '-j4', '-l4'], 'cwd': '/home/pranav/ws/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pranav'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pranav/ws/install/my_robot_interfaces/lib:/home/pranav/ws/src/my_robot_interfaces/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/pranav'), ('OLDPWD', '/home/pranav'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1163'), ('SYSTEMD_EXEC_PID', '1340'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2956'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pranav/ws/install:/home/pranav/project_robot_ws/install:/home/pranav/ws/src/my_robot_interfaces/install:/home/pranav/learning_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pranav'), ('JOURNAL_STREAM', '8:22819'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pranav'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jarvis:@/tmp/.ICE-unix/1314,unix/jarvis:/tmp/.ICE-unix/1314'), ('INVOCATION_ID', '24f8b18119f54bf09cb57cef98322450'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QZC7R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pranav/ws/install/my_robot_bringup:/home/pranav/ws/install/mypkg:/home/pranav/ws/install/my_robot_interfaces:/home/pranav/ws/install/my_cpp_pkg:/home/pranav/project_robot_ws/install/project_robot_description:/home/pranav/project_robot_ws/install/my_robot_bringup:/home/pranav/ws/src/my_robot_interfaces/install/my_robot_interfaces:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ca9578ee-51c0-47c7-9c8d-4285dc7edb3a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pranav/ws/build/my_cpp_pkg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pranav/ws/install/mypkg/lib/python3.10/site-packages:/home/pranav/ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/pranav/ws/src/my_robot_interfaces/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/pranav/learning_ws/build/mypkg:/home/pranav/learning_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pranav/ws/install/my_robot_bringup:/home/pranav/ws/install/my_robot_interfaces:/home/pranav/ws/install/my_cpp_pkg:/home/pranav/project_robot_ws/install/project_robot_description:/home/pranav/project_robot_ws/install/my_robot_bringup:/home/pranav/ws/src/my_robot_interfaces/install/my_robot_interfaces:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble')]), 'shell': False}
+[0.504117] (-) TimerEvent: {}
+[0.509040] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publisher\x1b[0m\n'}
+[0.514818] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber\x1b[0m\n'}
+[0.552996] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target publisher\n'}
+[0.560878] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[0.606315] (-) TimerEvent: {}
+[0.707543] (-) TimerEvent: {}
+[0.808384] (-) TimerEvent: {}
+[0.909101] (-) TimerEvent: {}
+[1.010815] (-) TimerEvent: {}
+[1.111601] (-) TimerEvent: {}
+[1.214788] (-) TimerEvent: {}
+[1.316278] (-) TimerEvent: {}
+[1.417168] (-) TimerEvent: {}
+[1.517829] (-) TimerEvent: {}
+[1.618447] (-) TimerEvent: {}
+[1.719103] (-) TimerEvent: {}
+[1.819926] (-) TimerEvent: {}
+[1.920883] (-) TimerEvent: {}
+[2.021700] (-) TimerEvent: {}
+[2.122764] (-) TimerEvent: {}
+[2.224092] (-) TimerEvent: {}
+[2.325376] (-) TimerEvent: {}
+[2.426092] (-) TimerEvent: {}
+[2.527555] (-) TimerEvent: {}
+[2.628433] (-) TimerEvent: {}
+[2.729542] (-) TimerEvent: {}
+[2.830602] (-) TimerEvent: {}
+[2.931522] (-) TimerEvent: {}
+[3.032938] (-) TimerEvent: {}
+[3.133930] (-) TimerEvent: {}
+[3.234891] (-) TimerEvent: {}
+[3.335607] (-) TimerEvent: {}
+[3.436285] (-) TimerEvent: {}
+[3.537440] (-) TimerEvent: {}
+[3.638189] (-) TimerEvent: {}
+[3.738933] (-) TimerEvent: {}
+[3.839731] (-) TimerEvent: {}
+[3.940522] (-) TimerEvent: {}
+[4.041666] (-) TimerEvent: {}
+[4.142635] (-) TimerEvent: {}
+[4.243380] (-) TimerEvent: {}
+[4.345595] (-) TimerEvent: {}
+[4.446396] (-) TimerEvent: {}
+[4.547549] (-) TimerEvent: {}
+[4.648663] (-) TimerEvent: {}
+[4.756811] (-) TimerEvent: {}
+[4.857782] (-) TimerEvent: {}
+[4.958444] (-) TimerEvent: {}
+[5.059724] (-) TimerEvent: {}
+[5.160800] (-) TimerEvent: {}
+[5.262023] (-) TimerEvent: {}
+[5.362942] (-) TimerEvent: {}
+[5.463789] (-) TimerEvent: {}
+[5.564394] (-) TimerEvent: {}
+[5.664958] (-) TimerEvent: {}
+[5.766122] (-) TimerEvent: {}
+[5.866600] (-) TimerEvent: {}
+[5.967496] (-) TimerEvent: {}
+[6.067985] (-) TimerEvent: {}
+[6.168652] (-) TimerEvent: {}
+[6.269556] (-) TimerEvent: {}
+[6.370568] (-) TimerEvent: {}
+[6.471284] (-) TimerEvent: {}
+[6.572059] (-) TimerEvent: {}
+[6.672573] (-) TimerEvent: {}
+[6.773295] (-) TimerEvent: {}
+[6.873775] (-) TimerEvent: {}
+[6.974443] (-) TimerEvent: {}
+[7.075263] (-) TimerEvent: {}
+[7.176102] (-) TimerEvent: {}
+[7.277424] (-) TimerEvent: {}
+[7.378212] (-) TimerEvent: {}
+[7.479076] (-) TimerEvent: {}
+[7.579613] (-) TimerEvent: {}
+[7.680130] (-) TimerEvent: {}
+[7.780677] (-) TimerEvent: {}
+[7.881966] (-) TimerEvent: {}
+[7.982828] (-) TimerEvent: {}
+[8.083255] (-) TimerEvent: {}
+[8.183889] (-) TimerEvent: {}
+[8.284714] (-) TimerEvent: {}
+[8.386271] (-) TimerEvent: {}
+[8.487026] (-) TimerEvent: {}
+[8.587403] (-) TimerEvent: {}
+[8.688616] (-) TimerEvent: {}
+[8.789789] (-) TimerEvent: {}
+[8.890391] (-) TimerEvent: {}
+[8.991186] (-) TimerEvent: {}
+[9.091846] (-) TimerEvent: {}
+[9.192588] (-) TimerEvent: {}
+[9.293258] (-) TimerEvent: {}
+[9.394134] (-) TimerEvent: {}
+[9.494731] (-) TimerEvent: {}
+[9.596035] (-) TimerEvent: {}
+[9.696707] (-) TimerEvent: {}
+[9.797586] (-) TimerEvent: {}
+[9.898515] (-) TimerEvent: {}
+[10.003349] (-) TimerEvent: {}
+[10.104213] (-) TimerEvent: {}
+[10.204841] (-) TimerEvent: {}
+[10.305514] (-) TimerEvent: {}
+[10.406281] (-) TimerEvent: {}
+[10.507302] (-) TimerEvent: {}
+[10.608012] (-) TimerEvent: {}
+[10.708591] (-) TimerEvent: {}
+[10.809601] (-) TimerEvent: {}
+[10.910584] (-) TimerEvent: {}
+[11.012173] (-) TimerEvent: {}
+[11.113205] (-) TimerEvent: {}
+[11.213972] (-) TimerEvent: {}
+[11.314878] (-) TimerEvent: {}
+[11.416391] (-) TimerEvent: {}
+[11.517240] (-) TimerEvent: {}
+[11.617801] (-) TimerEvent: {}
+[11.718320] (-) TimerEvent: {}
+[11.819667] (-) TimerEvent: {}
+[11.920826] (-) TimerEvent: {}
+[12.021791] (-) TimerEvent: {}
+[12.122821] (-) TimerEvent: {}
+[12.224230] (-) TimerEvent: {}
+[12.324845] (-) TimerEvent: {}
+[12.425695] (-) TimerEvent: {}
+[12.526420] (-) TimerEvent: {}
+[12.627256] (-) TimerEvent: {}
+[12.730105] (-) TimerEvent: {}
+[12.831218] (-) TimerEvent: {}
+[12.931648] (-) TimerEvent: {}
+[13.032481] (-) TimerEvent: {}
+[13.133407] (-) TimerEvent: {}
+[13.234460] (-) TimerEvent: {}
+[13.335493] (-) TimerEvent: {}
+[13.436915] (-) TimerEvent: {}
+[13.537310] (-) TimerEvent: {}
+[13.638893] (-) TimerEvent: {}
+[13.740061] (-) TimerEvent: {}
+[13.840823] (-) TimerEvent: {}
+[13.941406] (-) TimerEvent: {}
+[14.042776] (-) TimerEvent: {}
+[14.143367] (-) TimerEvent: {}
+[14.244130] (-) TimerEvent: {}
+[14.344907] (-) TimerEvent: {}
+[14.371483] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[14.445092] (-) TimerEvent: {}
+[14.546625] (-) TimerEvent: {}
+[14.606005] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[14.621014] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[14.646752] (-) TimerEvent: {}
+[14.659176] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[14.670328] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pranav/ws/build/my_cpp_pkg'], 'cwd': '/home/pranav/ws/build/my_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'pranav'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pranav/ws/install/my_robot_interfaces/lib:/home/pranav/ws/src/my_robot_interfaces/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/pranav'), ('OLDPWD', '/home/pranav'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1163'), ('SYSTEMD_EXEC_PID', '1340'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2956'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pranav/ws/install:/home/pranav/project_robot_ws/install:/home/pranav/ws/src/my_robot_interfaces/install:/home/pranav/learning_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pranav'), ('JOURNAL_STREAM', '8:22819'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pranav'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/jarvis:@/tmp/.ICE-unix/1314,unix/jarvis:/tmp/.ICE-unix/1314'), ('INVOCATION_ID', '24f8b18119f54bf09cb57cef98322450'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.QZC7R2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pranav/ws/install/my_robot_bringup:/home/pranav/ws/install/mypkg:/home/pranav/ws/install/my_robot_interfaces:/home/pranav/ws/install/my_cpp_pkg:/home/pranav/project_robot_ws/install/project_robot_description:/home/pranav/project_robot_ws/install/my_robot_bringup:/home/pranav/ws/src/my_robot_interfaces/install/my_robot_interfaces:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ca9578ee-51c0-47c7-9c8d-4285dc7edb3a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pranav/ws/build/my_cpp_pkg'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pranav/ws/install/mypkg/lib/python3.10/site-packages:/home/pranav/ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/pranav/ws/src/my_robot_interfaces/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/pranav/learning_ws/build/mypkg:/home/pranav/learning_ws/install/mypkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pranav/ws/install/my_robot_bringup:/home/pranav/ws/install/my_robot_interfaces:/home/pranav/ws/install/my_cpp_pkg:/home/pranav/project_robot_ws/install/project_robot_description:/home/pranav/project_robot_ws/install/my_robot_bringup:/home/pranav/ws/src/my_robot_interfaces/install/my_robot_interfaces:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble')]), 'shell': False}
+[14.684546] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[14.684808] (my_cpp_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[14.686195] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/lib/my_cpp_pkg/publisher\n'}
+[14.686308] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/lib/my_cpp_pkg/subscriber\n'}
+[14.686374] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[14.686496] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[14.686605] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[14.686799] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[14.686901] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[14.687016] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[14.687235] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[14.687317] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[14.687388] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[14.687435] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[14.687480] (my_cpp_pkg) StdoutLine: {'line': b'-- Symlinking: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[14.699975] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[14.700213] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[14.700304] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[14.700389] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[14.703186] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[14.746941] (-) TimerEvent: {}
+[14.761027] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[14.762493] (-) EventReactorShutdown: {}

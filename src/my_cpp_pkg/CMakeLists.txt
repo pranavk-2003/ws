@@ -14,12 +14,19 @@ find_package(std_msgs REQUIRED)
 # find_package(<dependency> REQUIRED)
 add_executable(publisher src/publisher.cpp)
 add_executable(subscriber src/subscriber.cpp)
+add_executable(rpm_pub src/rpm_publisher.cpp)
+add_executable(speed_pub src/speed_publisher.cpp)
+
 ament_target_dependencies(publisher rclcpp std_msgs)
 ament_target_dependencies(subscriber rclcpp std_msgs)
+ament_target_dependencies(rpm_pub rclcpp std_msgs)
+ament_target_dependencies(speed_pub rclcpp std_msgs)
 
 install(TARGETS
   publisher
   subscriber
+  rpm_pub
+  speed_pub
   DESTINATION lib/${PROJECT_NAME}
 )
 

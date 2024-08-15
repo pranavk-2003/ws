@@ -2,6 +2,8 @@
 /home/pranav/ws/build/my_cpp_pkg/CMakeFiles/my_cpp_pkg_uninstall.dir
 /home/pranav/ws/build/my_cpp_pkg/CMakeFiles/publisher.dir
 /home/pranav/ws/build/my_cpp_pkg/CMakeFiles/subscriber.dir
+/home/pranav/ws/build/my_cpp_pkg/CMakeFiles/rpm_pub.dir
+/home/pranav/ws/build/my_cpp_pkg/CMakeFiles/speed_pub.dir
 /home/pranav/ws/build/my_cpp_pkg/CMakeFiles/test.dir
 /home/pranav/ws/build/my_cpp_pkg/CMakeFiles/edit_cache.dir
 /home/pranav/ws/build/my_cpp_pkg/CMakeFiles/rebuild_cache.dir

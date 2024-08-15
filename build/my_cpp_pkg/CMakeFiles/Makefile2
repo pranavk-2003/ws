@@ -65,6 +65,8 @@ CMAKE_BINARY_DIR = /home/pranav/ws/build/my_cpp_pkg
 # The main recursive "all" target.
 all: CMakeFiles/publisher.dir/all
 all: CMakeFiles/subscriber.dir/all
+all: CMakeFiles/rpm_pub.dir/all
+all: CMakeFiles/speed_pub.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -76,6 +78,8 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/my_cpp_pkg_uninstall.dir/clean
 clean: CMakeFiles/publisher.dir/clean
 clean: CMakeFiles/subscriber.dir/clean
+clean: CMakeFiles/rpm_pub.dir/clean
+clean: CMakeFiles/speed_pub.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -163,7 +167,7 @@ CMakeFiles/publisher.dir/clean:
 CMakeFiles/subscriber.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pranav/ws/build/my_cpp_pkg/CMakeFiles --progress-num=3,4 "Built target subscriber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pranav/ws/build/my_cpp_pkg/CMakeFiles --progress-num=7,8 "Built target subscriber"
 .PHONY : CMakeFiles/subscriber.dir/all
 
 # Build rule for subdir invocation for target.
@@ -181,6 +185,58 @@ subscriber: CMakeFiles/subscriber.dir/rule
 CMakeFiles/subscriber.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/clean
 .PHONY : CMakeFiles/subscriber.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/rpm_pub.dir
+
+# All Build rule for target.
+CMakeFiles/rpm_pub.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_pub.dir/build.make CMakeFiles/rpm_pub.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_pub.dir/build.make CMakeFiles/rpm_pub.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pranav/ws/build/my_cpp_pkg/CMakeFiles --progress-num=3,4 "Built target rpm_pub"
+.PHONY : CMakeFiles/rpm_pub.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/rpm_pub.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/ws/build/my_cpp_pkg/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/rpm_pub.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/ws/build/my_cpp_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/rpm_pub.dir/rule
+
+# Convenience name for target.
+rpm_pub: CMakeFiles/rpm_pub.dir/rule
+.PHONY : rpm_pub
+
+# clean rule for target.
+CMakeFiles/rpm_pub.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rpm_pub.dir/build.make CMakeFiles/rpm_pub.dir/clean
+.PHONY : CMakeFiles/rpm_pub.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/speed_pub.dir
+
+# All Build rule for target.
+CMakeFiles/speed_pub.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_pub.dir/build.make CMakeFiles/speed_pub.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_pub.dir/build.make CMakeFiles/speed_pub.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pranav/ws/build/my_cpp_pkg/CMakeFiles --progress-num=5,6 "Built target speed_pub"
+.PHONY : CMakeFiles/speed_pub.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/speed_pub.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/ws/build/my_cpp_pkg/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/speed_pub.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pranav/ws/build/my_cpp_pkg/CMakeFiles 0
+.PHONY : CMakeFiles/speed_pub.dir/rule
+
+# Convenience name for target.
+speed_pub: CMakeFiles/speed_pub.dir/rule
+.PHONY : speed_pub
+
+# clean rule for target.
+CMakeFiles/speed_pub.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/speed_pub.dir/build.make CMakeFiles/speed_pub.dir/clean
+.PHONY : CMakeFiles/speed_pub.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
