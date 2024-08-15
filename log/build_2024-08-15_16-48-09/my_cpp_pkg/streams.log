@@ -1,0 +1,36 @@
+[0.024s] Invoking command in '/home/pranav/ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/pranav/ws/build/my_cpp_pkg -- -j4 -l4
+[0.127s] [ 25%] Built target rpm_pub
+[0.128s] [35m[1mConsolidate compiler generated dependencies of target speed_pub[0m
+[0.133s] [ 50%] Built target subscriber
+[0.160s] [ 75%] Built target publisher
+[0.165s] [ 87%] [32mBuilding CXX object CMakeFiles/speed_pub.dir/src/speed_publisher.cpp.o[0m
+[3.130s] [01m[K/home/pranav/ws/src/my_cpp_pkg/src/speed_publisher.cpp:[m[K In member function ‘[01m[Kvoid rpm_sub::sub_callback(const Float32&)[m[K’:
+[3.130s] [01m[K/home/pranav/ws/src/my_cpp_pkg/src/speed_publisher.cpp:22:18:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kspeed_[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[3.130s]    22 |             auto [01;35m[Kspeed_[m[K=std_msgs::msg::Float32();
+[3.130s]       |                  [01;35m[K^~~~~~[m[K
+[8.894s] [100%] [32m[1mLinking CXX executable speed_pub[0m
+[9.296s] [100%] Built target speed_pub
+[9.316s] Invoked command in '/home/pranav/ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/pranav/ws/build/my_cpp_pkg -- -j4 -l4
+[9.386s] Invoking command in '/home/pranav/ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --install /home/pranav/ws/build/my_cpp_pkg
+[9.395s] -- Install configuration: ""
+[9.396s] -- Execute custom install script
+[9.397s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/lib/my_cpp_pkg/publisher
+[9.398s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/lib/my_cpp_pkg/subscriber
+[9.398s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/lib/my_cpp_pkg/rpm_pub
+[9.399s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/lib/my_cpp_pkg/speed_pub
+[9.399s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[9.399s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[9.399s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[9.399s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[9.399s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[9.399s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[9.399s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[9.399s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[9.399s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[9.399s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[9.399s] -- Symlinking: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[9.412s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[9.413s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[9.413s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[9.414s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[9.416s] Invoked command in '/home/pranav/ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --install /home/pranav/ws/build/my_cpp_pkg

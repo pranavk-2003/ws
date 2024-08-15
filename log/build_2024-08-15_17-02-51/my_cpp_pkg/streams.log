@@ -1,0 +1,30 @@
+[0.021s] Invoking command in '/home/pranav/ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/pranav/ws/build/my_cpp_pkg -- -j4 -l4
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target rpm_pub[0m
+[0.121s] [ 25%] Built target subscriber
+[0.123s] [ 50%] Built target publisher
+[0.124s] [ 75%] Built target speed_pub
+[0.132s] [100%] Built target rpm_pub
+[0.152s] Invoked command in '/home/pranav/ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --build /home/pranav/ws/build/my_cpp_pkg -- -j4 -l4
+[0.220s] Invoking command in '/home/pranav/ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --install /home/pranav/ws/build/my_cpp_pkg
+[0.233s] -- Install configuration: ""
+[0.233s] -- Execute custom install script
+[0.233s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/lib/my_cpp_pkg/publisher
+[0.233s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/lib/my_cpp_pkg/subscriber
+[0.233s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/lib/my_cpp_pkg/rpm_pub
+[0.233s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/lib/my_cpp_pkg/speed_pub
+[0.234s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg
+[0.234s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg
+[0.234s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh
+[0.234s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv
+[0.234s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh
+[0.235s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv
+[0.236s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash
+[0.236s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh
+[0.236s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh
+[0.236s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv
+[0.237s] -- Symlinking: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv
+[0.251s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg
+[0.251s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake
+[0.251s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake
+[0.252s] -- Up-to-date symlink: /home/pranav/ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml
+[0.256s] Invoked command in '/home/pranav/ws/build/my_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pranav/ws/install/mypkg:/home/pranav/learning_ws/install/mypkg:/opt/ros/humble /usr/bin/cmake --install /home/pranav/ws/build/my_cpp_pkg

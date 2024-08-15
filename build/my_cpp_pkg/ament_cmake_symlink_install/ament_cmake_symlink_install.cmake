@@ -313,6 +313,9 @@ message(STATUS "Execute custom install script")
 # install("TARGETS" "publisher" "subscriber" "rpm_pub" "speed_pub" "DESTINATION" "lib/my_cpp_pkg")
 include("/home/pranav/ws/build/my_cpp_pkg/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
+# install(DIRECTORY "launch" "DESTINATION" "share/my_cpp_pkg/")
+ament_cmake_symlink_install_directory("/home/pranav/ws/src/my_cpp_pkg" DIRECTORY "launch" "DESTINATION" "share/my_cpp_pkg/")
+
 # install(FILES "/home/pranav/ws/build/my_cpp_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/pranav/ws/src/my_cpp_pkg" FILES "/home/pranav/ws/build/my_cpp_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
